@@ -51,7 +51,6 @@ namespace MyCars
                 SteeringWheel = editedCarDto.SteeringWheel,
                 IsCustomClearence = editedCarDto.IsCustomClearence
             };
-
             
             _appDbContext.Cars.Update(car);
             _appDbContext.SaveChanges();
